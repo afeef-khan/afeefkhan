@@ -3,3 +3,36 @@
   padding: 0px;
   font-family: "Josefin Sans", sans-serif;
 }
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-bar>img{
+    width: 90px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 40px;
+    list-style-type: none;
+    position: absolute;
+}
+
+.nav-contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
