@@ -1,38 +1,127 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+:root {
+  --primary-color: #0c0c0c;
+  --secondary-color: #084a48;
+  --sub-secondary-color: #1cb5af;
+  --bg-color: #eae9e9;
 }
 
-.nav-logo{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+/* Custom Button CSS is here  */
+.button{
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 12px;
+  
 }
 
-.nav-bar>img{
-    width: 90px;
+/* Nav Bar CSS starts--------------------------------------- */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  color: var(--secondary-color);
+  background-color: var(--bg-color);
 }
 
-.nav-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    gap: 40px;
-    list-style-type: none;
-    position: absolute;
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.nav-contact{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 1;
+.nav-bar > img {
+  width: 90px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 60px;
+  list-style-type: none;
+  position: absolute;
+  padding: 6px 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 8px 1px var(--sub-secondary-color);
+  color: var(--secondary-color);
+}
+
+.nav-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+/* Hero container CSS starts----------------------------------------- */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 32px;
+  background-color: var(--bg-color);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-heading {
+  font-size: 52px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.hero-designation {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 0px 24px 0px;
+  color: var(--sub-secondary-color);
+}
+
+.hero-sub-heading {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.hero-img > img {
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px 2px var(--sub-secondary-color);
+}
+
+.hero-achivements {
+  display: flex;
+  background-color: var(--primary-color);
+}
+
+.hero-achivement {
+  flex: 1;
+  padding: 16px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 450;
+  color: var(--sub-secondary-color);
 }
