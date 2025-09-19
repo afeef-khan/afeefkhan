@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px;
+  padding: 40px;
   color: var(--secondary-color);
   background-color: var(--bg-color);
 }
@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 44px 32px;
+  padding: 44px 40px;
   background-color: var(--bg-color);
 }
 
@@ -124,4 +124,46 @@
   font-size: 18px;
   font-weight: 450;
   color: var(--sub-secondary-color);
+}
+
+/* About section starts here---------------------------------------- */
+
+.about{
+  padding: 60px 40px;
+  background-color: var(--bg-color);
+}
+
+.about-heading{
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--primary-color);
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.underline-div{
+  margin: 20px 0px;
+  border: 1px solid var(--sub-secondary-color);
+}
+
+.about-para{
+  font-size: 18px;
+  font-weight: 350;
+  color: var(--secondary-color);
+  padding: 8px 0px;
+  width: 85%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.to-highlight{
+  font-weight: 500;
+}
+
+.about-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 24px 0px;
 }
