@@ -12,7 +12,7 @@
 }
 
 /* Custom Button CSS is here  */
-.button{
+.button {
   border: none;
   background-color: var(--secondary-color);
   color: var(--bg-color);
@@ -20,7 +20,6 @@
   font-weight: 500;
   padding: 8px;
   border-radius: 12px;
-  
 }
 
 /* Nav Bar CSS starts--------------------------------------- */
@@ -119,7 +118,7 @@
 
 .hero-achivement {
   flex: 1;
-  padding: 16px 0px;
+  padding: 20px 0px;
   text-align: center;
   font-size: 18px;
   font-weight: 450;
@@ -128,12 +127,12 @@
 
 /* About section starts here---------------------------------------- */
 
-.about{
+.about {
   padding: 60px 40px;
   background-color: var(--bg-color);
 }
 
-.about-heading{
+.about-heading {
   font-size: 36px;
   font-weight: 500;
   color: var(--primary-color);
@@ -141,12 +140,12 @@
   padding: 12px 0px;
 }
 
-.underline-div{
+.underline-div {
   margin: 20px 0px;
   border: 1px solid var(--sub-secondary-color);
 }
 
-.about-para{
+.about-para {
   font-size: 18px;
   font-weight: 350;
   color: var(--secondary-color);
@@ -156,14 +155,73 @@
   margin: 0 auto;
 }
 
-.to-highlight{
+.to-highlight {
   font-weight: 500;
 }
 
-.about-buttons{
+.about-buttons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
   padding: 24px 0px;
+}
+
+/* Skills CSS starts here----------------------------------------- */
+
+.skills {
+  padding: 20px 0px;
+  background-color: var(--primary-color);
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 32px;
+  color: var(--bg-color);
+  font-weight: 500;
+  padding: 12px 0px 32px 0px;
+}
+
+.skill-div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 12px;
+  font-size: 20px;
+}
+
+.html {
+  color: #e34c26;
+}
+
+.css {
+  color: #264de4;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.c {
+  color: rgb(0, 157, 255);
+}
+
+.figma {
+  color: #f24e1e;
+}
+
+.tailwind {
+  color: turquoise;
+}
+
+.github{
+  color: white;
 }
