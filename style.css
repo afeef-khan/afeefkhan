@@ -127,12 +127,20 @@
 
 /* About section starts here---------------------------------------- */
 
+<<<<<<< HEAD
 .about {
+=======
+.about{
+>>>>>>> 5e8e17346f3fcb04991391ed8441093a167c5f63
   padding: 60px 40px;
   background-color: var(--bg-color);
 }
 
+<<<<<<< HEAD
 .about-heading {
+=======
+.about-heading{
+>>>>>>> 5e8e17346f3fcb04991391ed8441093a167c5f63
   font-size: 36px;
   font-weight: 500;
   color: var(--primary-color);
@@ -140,12 +148,20 @@
   padding: 12px 0px;
 }
 
+<<<<<<< HEAD
 .underline-div {
+=======
+.underline-div{
+>>>>>>> 5e8e17346f3fcb04991391ed8441093a167c5f63
   margin: 20px 0px;
   border: 1px solid var(--sub-secondary-color);
 }
 
+<<<<<<< HEAD
 .about-para {
+=======
+.about-para{
+>>>>>>> 5e8e17346f3fcb04991391ed8441093a167c5f63
   font-size: 18px;
   font-weight: 350;
   color: var(--secondary-color);
@@ -155,16 +171,25 @@
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .to-highlight {
   font-weight: 500;
 }
 
 .about-buttons {
+=======
+.to-highlight{
+  font-weight: 500;
+}
+
+.about-buttons{
+>>>>>>> 5e8e17346f3fcb04991391ed8441093a167c5f63
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
   padding: 24px 0px;
+<<<<<<< HEAD
 }
 
 /* Skills CSS starts here----------------------------------------- */
@@ -225,3 +250,6 @@
 .github{
   color: white;
 }
+=======
+}
+>>>>>>> 5e8e17346f3fcb04991391ed8441093a167c5f63
